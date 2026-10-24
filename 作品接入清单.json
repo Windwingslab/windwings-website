@@ -1,0 +1,31 @@
+[
+  {
+    "slug": "xuliang-special-appearance",
+    "title": "徐良《友情出演》VJ",
+    "category": "现场视觉",
+    "status": "draft",
+    "sourceAssetId": "1496BF42-EBDD-4A36-B1A3-C66628912E06",
+    "sourcePath": "/Users/huangruxia/Library/Application Support/PromptAtlas/assets/徐良VJ/友情出演/友情出演-BCOPY_1.mp4",
+    "cover": "作品素材/xuliang-special-appearance/cover.jpg",
+    "preview": "作品素材/xuliang-special-appearance/preview.mp4",
+    "sourceWidth": 2452,
+    "sourceHeight": 640,
+    "sourceDuration": 192.68,
+    "publicationConfirmed": false,
+    "liveSourcePath": "/Users/huangruxia/Library/Application Support/PromptAtlas/assets/未归档/256a54f752510c9717e307241fca7002.mp4"
+  },
+  {
+    "slug": "en-opening",
+    "title": "EN 开场影像",
+    "category": "现场视觉",
+    "status": "draft",
+    "sourceAssetId": "2703D88D-4076-45CF-81EA-247425509414",
+    "sourcePath": "/Users/huangruxia/Library/Application Support/PromptAtlas/assets/EN演唱会开场/EN-开场最终版本.mov",
+    "cover": "作品素材/en-opening/cover.jpg",
+    "preview": "作品素材/en-opening/preview.mp4",
+    "sourceWidth": 3840,
+    "sourceHeight": 2160,
+    "sourceDuration": 87.92,
+    "publicationConfirmed": false
+  }
+]
