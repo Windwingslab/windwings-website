@@ -27,5 +27,15 @@
     "sourceHeight": 2160,
     "sourceDuration": 87.92,
     "publicationConfirmed": false
+  },
+  {
+    "slug": "xuliang-concert",
+    "title": "徐良演唱会",
+    "category": "现场视觉",
+    "status": "placeholder",
+    "cover": "作品素材/xuliang-special-appearance/cover.jpg",
+    "preview": "作品素材/xuliang-special-appearance/preview.mp4",
+    "publicationConfirmed": false,
+    "note": "占位：等广州站现场素材回来再补正式内容"
   }
 ]
