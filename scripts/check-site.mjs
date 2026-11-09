@@ -5,7 +5,9 @@ import { join } from 'node:path'
 
 const base = '/windwings-website/'
 const html = readFileSync('dist/index.html', 'utf8')
-assert.match(html, /<title>WINDWINGS — 风翮视觉<\/title>/)
+assert.match(html, /<title>windwings — 风翮<\/title>/)
+assert.match(html, /theme-color" content="#171819"/)
+assert.match(html, /fonts\.cdnfonts\.com\/css\/geist/)
 assert(!html.includes('/src/main.tsx'), 'Production HTML must load compiled JS')
 const urls = [...html.matchAll(/(?:src|href)="([^"]+)"/g)].map(match => match[1])
 for (const url of urls.filter(url => url.startsWith('/'))) {
