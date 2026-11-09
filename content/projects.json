@@ -1,0 +1,85 @@
+{
+  "projects": [
+    {
+      "id": "xuliang-special-appearance",
+      "title": "徐良《友情出演》VJ",
+      "english": "SPECIAL APPEARANCE",
+      "category": "Live Visual / Stage VJ",
+      "description": "粉色立体字、磁带与唱盘交织成复古音乐世界。让歌曲的情绪，延伸到舞台的每一块屏幕。",
+      "placeholder": false,
+      "film": "works/xuliang-special-appearance/film.mp4",
+      "images": [
+        {
+          "src": "works/xuliang-special-appearance/live-cover.jpg",
+          "alt": "徐良《友情出演》演唱会现场大屏",
+          "position": "center"
+        },
+        {
+          "src": "works/xuliang-special-appearance/cover.jpg",
+          "alt": "友情出演粉色三维文字与音乐元素主视觉",
+          "position": "28% center"
+        },
+        {
+          "src": "works/xuliang-special-appearance/cover.jpg",
+          "alt": "友情出演主视觉右侧细节裁切",
+          "position": "82% center",
+          "caption": "主视觉局部 · 同图裁切"
+        }
+      ]
+    },
+    {
+      "id": "xuliang-concert",
+      "title": "徐良演唱会",
+      "english": "XULIANG LIVE",
+      "category": "Live Visual · 案例待更新",
+      "description": "广州站正式现场素材整理中。当前画面借用《友情出演》案例作版式预览，后续替换为本项目完整记录。",
+      "placeholder": true,
+      "images": [
+        {
+          "src": "works/xuliang-concert/live-cover.jpg",
+          "alt": "徐良演唱会占位图，借用友情出演现场照片",
+          "position": "60% center",
+          "caption": "素材待更新 · 借用《友情出演》现场图"
+        },
+        {
+          "src": "works/xuliang-concert/cover.jpg",
+          "alt": "演唱会占位主视觉，借用友情出演画面",
+          "position": "15% center"
+        },
+        {
+          "src": "works/xuliang-concert/live-cover.jpg",
+          "alt": "演唱会占位细节，借用友情出演现场照片裁切",
+          "position": "80% center",
+          "caption": "借用图局部 · 非本案例正式素材"
+        }
+      ]
+    },
+    {
+      "id": "en-opening",
+      "title": "EN 开场影像",
+      "english": "INTO THE LIGHT",
+      "category": "Opening Film / Live Visual",
+      "description": "以海面、光束与空间尺度展开开场叙事。让流动的光引导视线，让现场从第一秒进入情境。",
+      "placeholder": false,
+      "film": "works/en-opening/film.mp4",
+      "images": [
+        {
+          "src": "works/en-opening/cover.jpg",
+          "alt": "EN 开场影像，暗色海面与远方垂直光束"
+        },
+        {
+          "src": "works/en-opening/cover.jpg",
+          "alt": "EN 开场影像光束细节裁切",
+          "position": "60% 30%",
+          "caption": "光束细节 · 同图裁切"
+        },
+        {
+          "src": "works/en-opening/cover.jpg",
+          "alt": "EN 开场影像海面细节裁切",
+          "position": "35% 80%",
+          "caption": "海面细节 · 同图裁切"
+        }
+      ]
+    }
+  ]
+}

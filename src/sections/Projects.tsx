@@ -81,7 +81,7 @@ export function Projects() {
         <FadeIn className="project-heading">
           <h2 className="section-heading">
             {t('projectsHeading')}
-            <span className="project-count font-mono">(03)</span>
+            <span className="project-count font-mono">({String(projects.length).padStart(2, '0')})</span>
           </h2>
           <p>
             {t('projectsAside').split('\n').map((line, i, arr) => (
