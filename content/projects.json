@@ -20,10 +20,10 @@
           "position": "28% center"
         },
         {
-          "src": "works/xuliang-special-appearance/cover.jpg",
-          "alt": "友情出演主视觉右侧细节裁切",
-          "position": "82% center",
-          "caption": "主视觉局部 · 同图裁切"
+          "src": "works/xuliang-special-appearance/detail-01.jpg",
+          "alt": "友情出演影像静帧，粉色音乐窗口、磁带与星眼笑脸元素",
+          "position": "center",
+          "caption": "影片静帧 · 01:50"
         }
       ]
     },
@@ -68,16 +68,16 @@
           "alt": "EN 开场影像，暗色海面与远方垂直光束"
         },
         {
-          "src": "works/en-opening/cover.jpg",
-          "alt": "EN 开场影像光束细节裁切",
-          "position": "60% 30%",
-          "caption": "光束细节 · 同图裁切"
+          "src": "works/en-opening/detail-01.jpg",
+          "alt": "EN 开场影像静帧，光束下的人物与镜面倒影",
+          "position": "center",
+          "caption": "影片静帧 · 00:15"
         },
         {
-          "src": "works/en-opening/cover.jpg",
-          "alt": "EN 开场影像海面细节裁切",
-          "position": "35% 80%",
-          "caption": "海面细节 · 同图裁切"
+          "src": "works/en-opening/detail-02.jpg",
+          "alt": "EN 开场影像静帧，紫色空间中的发光弧线与远方光芒",
+          "position": "center",
+          "caption": "影片静帧 · 01:05"
         }
       ]
     }

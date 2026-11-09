@@ -61,3 +61,8 @@ code { color: #ffd0b8; }
 @media (max-width: 900px) {
   .admin-layout, .admin-grid, .admin-image-row { grid-template-columns: 1fr; }
 }
+fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+button:disabled { opacity: 0.5; cursor: wait; }
+input[readonly] { opacity: 0.7; }
+.admin-toast { border-radius: 14px; overflow-wrap: anywhere; max-height: 35vh; overflow-y: auto; z-index: 10; }
+.admin-header-actions { flex-wrap: wrap; }

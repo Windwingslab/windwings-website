@@ -27,8 +27,14 @@ assert(bundle.includes('en-opening'))
 assert(bundle.includes('xuliang-concert'))
 
 const projects = JSON.parse(readFileSync('content/projects.json', 'utf8')).projects
-assert.equal(projects.length, 3, 'Keep exactly the three existing projects unless intentionally changed')
+assert(Array.isArray(projects) && projects.length > 0, 'Projects must be a non-empty list')
+assert.equal(new Set(projects.map(project => project.id)).size, projects.length, 'Project ids must be unique')
 for (const project of projects) {
+  assert(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(project.id), `Invalid project id: ${project.id}`)
+  for (const key of ['title', 'english', 'category', 'description']) {
+    assert(typeof project[key] === 'string' && project[key].trim(), `Missing ${key}: ${project.id}`)
+  }
+  assert(Array.isArray(project.images) && project.images.length > 0, `Missing images: ${project.id}`)
   for (const image of project.images || []) {
     if (!image.src || /^https?:/i.test(image.src)) continue
     assert(existsSync(join('public', image.src)), `Missing project image: ${image.src}`)
@@ -52,4 +58,4 @@ for (const file of protectedFiles) assert(existsSync(file), `Original file remov
 assert(existsSync('archive/index.legacy.html'))
 assert(existsSync('ADMIN.md'))
 console.log(`PASS: production title, ${base} paths, admin page, ${projects.length} projects with public/works media, original files preserved, no reference-brand copy.`)
-console.log('Known placeholder: Celestia GIF returns HTTP 404; same-size tile is rendered without requesting it.')
+console.log('Known reference placeholder: Celestia is not a usable GIF; same-size tile is rendered without requesting it.')

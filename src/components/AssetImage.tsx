@@ -1,7 +1,8 @@
-import { useState, type ImgHTMLAttributes } from 'react'
+import { useEffect, useState, type ImgHTMLAttributes } from 'react'
 
 export function AssetImage({ alt, className = '', ...props }: ImgHTMLAttributes<HTMLImageElement>) {
   const [failed, setFailed] = useState(false)
+  useEffect(() => setFailed(false), [props.src, props.srcSet])
   // Preserve geometry if a local/remote reference stops responding.
   if (failed) return <div className={`${className} asset-fallback`} role={alt ? 'img' : undefined} aria-label={alt || undefined}>
     <span aria-hidden="true">W<span className="text-white/30">/</span>W</span>

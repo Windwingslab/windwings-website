@@ -5,3 +5,10 @@ dist/
 .codex-tasks/
 .env.local
 .env.*.local
+
+# Local upload staging and credentials
+staging/
+.env
+.env.*
+!.env.example
+public/works/.publish-*/

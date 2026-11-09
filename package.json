@@ -7,7 +7,9 @@
     "dev": "vite --host 127.0.0.1",
     "build": "node scripts/sync-works.mjs && tsc -b && vite build",
     "preview": "vite preview --host 127.0.0.1",
-    "check": "node scripts/check-site.mjs"
+    "check": "node scripts/check-site.mjs && npm test",
+    "test": "node --test tests/*.test.mjs",
+    "check:browser": "node tests/browser-admin.cjs"
   },
   "dependencies": {
     "framer-motion": "^12.38.0",
